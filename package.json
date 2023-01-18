@@ -1,0 +1,16 @@
+{
+  "name": "cc.sync",
+  "version": "1.0.0",
+  "description": "Sync ComputerCraft files with external editors using WebSockets",
+  "main": "out/client/client.js",
+  "author": "SynicalMX",
+  "license": "MIT",
+  "scripts": {
+    "watch": "tsc -w",
+    "build": "tsc",
+    "start": "node out/client.js"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}
